@@ -2,14 +2,20 @@
     margin: 0;
     padding: 0;
 }
-header {
+.color-cont{
     background-color: darkred;
     display: flex;
-    justify-content: space-between;
     position: sticky;
     top: 0;
+}
+ .otra-class{
+    justify-content: flex-end;
+    color: #f8f9fa;
  }
- .navegacion{
+ .color-cont .otra-class .col-nav{
+     color: #f8f9fa;
+}
+.navegacion{
     display: flex;
     align-items: center;
  }
@@ -33,6 +39,10 @@ nav{
 h1{
     font-style: oblique;
     text-align: center;
+}
+.nosotros{
+    display: flex;
+    justify-content: center;
 }
 .mid{
     width:100%;
@@ -94,6 +104,12 @@ div{
 }
 
 /* pag contactos */
+:root{
+    --facebook: #3b5999; /* cambio var con animinacion*/
+    --instragram: #e4405f;
+    --whatsapp: green;
+    --youtube:red;
+}
 .conteiner-redes{
     display: flex;
     align-items: center;
@@ -126,6 +142,18 @@ div{
     box-shadow: 0 5px 5px 0 rgba(0,  0,  0,  .4);
     filter: none;
 }
+.conteiner-redes ul li .fa-facebook{ /* cambios en colores de animacion */
+    background: var(--facebook);
+}
+.conteiner-redes ul li .fa-instagram{
+    background: var(--instragram);
+}
+.conteiner-redes ul li .fa-youtube{
+    background: var(--youtube);
+}
+.conteiner-redes ul li .fa-whatsapp{
+    background: var(--whatsapp);
+} /* fin del cambio */
 .section-cont{
     display: flex;  
     align-items: center;
