@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="shortcut icon" href="./img/favicon-32x32.png">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="estilos.css"><!-- boton w -->
     <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script> <!-- boton w -->
     <title>Pizzería El Abuelo</title>
@@ -66,21 +66,35 @@
             <img class="imgg" src="./img/cocacola.jpg" alt="propaganda">
         </div>
     </section>
-    <footer>
-        <nav id="sucursales" class="sucursales">
-            <h2>Sucursales</h2>
-            <ul class="estiloabajo">
-                <li><a href="https://www.google.com.ar/maps/place/Almagro,+CABA/@-34.6098705,-58.4313812,15z/data=!3m1!4b1!4m5!3m4!1s0x95bcca5e41da17ff:0xebce9fad2698f23f!8m2!3d-34.6114447!4d-58.4209936">Almagro</a></li>
-                <li><a href="https://www.google.com.ar/maps/place/Palermo,+CABA/@-34.5733968,-58.438525,14z/data=!3m1!4b1!4m5!3m4!1s0x95bcb59c771eb933:0x6b3113b596d78c69!8m2!3d-34.5780655!4d-58.4265317">Palermo</a></li>
-                <li><a href="https://www.google.com.ar/maps/place/N%C3%BA%C3%B1ez,+CABA/@-34.5427194,-58.4698494,15z/data=!3m1!4b1!4m13!1m7!3m6!1s0x95bcb59c771eb933:0x6b3113b596d78c69!2sPalermo,+CABA!3b1!8m2!3d-34.5780655!4d-58.4265317!3m4!1s0x95bcb420f6902f33:0x319825d17bcaba0d!8m2!3d-34.5427491!4d-58.4601456">Nuñez</a></li>
-            </ul>
-        </nav>
 
-        <iframe class="maps1"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13135.094010842617!2d-58.422626449999996!3d-34.609888500000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca5e41da17ff%3A0xebce9fad2698f23f!2sAlmagro%2C%20CABA!5e0!3m2!1ses-419!2sar!4v1660333510688!5m2!1ses-419!2sar"
-            width="50%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade">
-        </iframe>
+    <footer class="footer-index" id="sucursales">
+        <h2>Nos podes encontar en:</h2>
+        <div class="map">
+            <div class="maps">
+             <iframe class="maps1"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13135.094010842617!2d-58.422626449999996!3d-34.609888500000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca5e41da17ff%3A0xebce9fad2698f23f!2sAlmagro%2C%20CABA!5e0!3m2!1ses-419!2sar!4v1660333510688!5m2!1ses-419!2sar"
+                width="50%" height="auto" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+             </iframe>
+
+             <a class="boton-abajo" href="https://www.google.com/maps/place/Almagro,+CABA/@-34.6098705,-58.4313812,15z/data=!3m1!4b1!4m5!3m4!1s0x95bcca5e41da17ff:0xebce9fad2698f23f!8m2!3d-34.6114447!4d-58.4209936?hl=es-419">Almagro</a>
+
+             <iframe class="maps1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26281.729249278957!2d-58.43852501410558!3d-34.573396763196975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb59c771eb933%3A0x6b3113b596d78c69!2sPalermo%2C%20CABA!5e0!3m2!1ses-419!2sar!4v1663777776232!5m2!1ses-419!2sar" width="50%" height="auto" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                <a class="boton-abajo" href="https://www.google.com/maps/place/Palermo,+CABA/@-34.5733968,-58.438525,14z/data=!3m1!4b1!4m5!3m4!1s0x95bcb59c771eb933:0x6b3113b596d78c69!8m2!3d-34.5780655!4d-58.4265317?hl=es-419">Palermo</a>
+            
+            </div>
+            <div class="maps2">
+                <iframe class="maps1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52505.147420728834!2d-58.740145026595556!3d-34.665517645300895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc95434093dd6b%3A0x58d832f755e4a278!2sMerlo%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1663778064216!5m2!1ses-419!2sar" width="50%" height="auto" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                <a class="boton-abajo" href="https://www.google.com/maps/place/Merlo,+Provincia+de+Buenos+Aires/@-34.6655176,-58.740145,13z/data=!4m5!3m4!1s0x95bc95434093dd6b:0x58d832f755e4a278!8m2!3d-34.6685004!4d-58.7282483?hl=es-419">Merlo</a>
+
+                <iframe class="maps1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26255.243753093197!2d-58.70896656397682!3d-34.657090197422086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbf7809861d5d%3A0x6bc97859fd9d3d86!2sItuzaing%C3%B3%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1663778140003!5m2!1ses-419!2sar" width="50%" height="auto" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                <a class="boton-abajo" href="https://www.google.com/maps/place/Ituzaing%C3%B3,+Provincia+de+Buenos+Aires/@-34.6570902,-58.7089666,14z/data=!3m1!4b1!4m5!3m4!1s0x95bcbf7809861d5d:0x6bc97859fd9d3d86!8m2!3d-34.6570243!4d-58.6753978?hl=es-419">Ituzaingó</a>
+
+            </div>
+        </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
