@@ -1,4 +1,9 @@
 /* redes */
+.conteiner-redes, .boton-abajo, .nosotros {
+  display: flex;
+  justify-content: center;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -10,7 +15,8 @@
 }
 
 h2 {
-  color: aliceblue;
+  font-style: oblique;
+  color: #f8f9fa; /* map */
 }
 
 h1 {
@@ -35,10 +41,10 @@ div {
 }
 .color-cont .otra-class {
   justify-content: flex-end;
-  color: #f8f9fa;
+  color: #f8f9fa; /* map */
 }
 .color-cont .otra-class .col-nav {
-  color: #f8f9fa;
+  color: #f8f9fa; /* map */
 }
 
 .btn-wsp {
@@ -71,11 +77,6 @@ div {
   color: aliceblue;
   font-style: oblique;
   align-items: center;
-}
-
-.nosotros {
-  display: flex;
-  justify-content: center;
 }
 
 .elnosotros {
@@ -134,16 +135,13 @@ div {
 .boton-abajo {
   text-decoration: none;
   color: aliceblue;
-  display: flex;
-  justify-content: center;
+  /* aca */
   font-style: oblique;
 }
 
 /* pag contactos */
 .conteiner-redes {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  justify-content: center; /* aca */
 }
 .conteiner-redes ul li {
   display: inline-block;
@@ -156,7 +154,7 @@ div {
   background: #3b5999;
 }
 .conteiner-redes ul li .fa-instagram {
-  background: #e4405f;
+  background-color: #e4405f;
 }
 .conteiner-redes ul li .fa-youtube {
   background: red;
@@ -176,7 +174,12 @@ div {
   box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2);
   transition: 0.2s;
 }
-.conteiner-redes ul li a {
+
+.conteiner-redes ul:hover a {
+  filter: blur(2px);
+}
+
+.conteiner-redes ul li a:hover {
   transform: translateY(-3px) scale(1.05);
   box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.4);
   filter: none;
@@ -209,8 +212,6 @@ div {
   .maps1 {
     width: 75%;
   }
-}
-@media only screen and (min-width: 320px) and (max-width: 768px) { /* cambio w */
   .btn-wsp {
     width: 63px;
     height: 63px;
