@@ -97,7 +97,14 @@ div {
 
 .imgg2 {
   grid-area: img2;
-} /* grids */
+}
+
+.tam {
+  margin: 20px;
+  font-size: 20px;
+}
+
+/* grids */
 .footerpages {
   background-color: darkred;
 }
@@ -191,6 +198,17 @@ div {
   flex-direction: column;
 }
 
+.form-redes { /* cambio aca */
+  display: flex;
+  align-items: center;
+}
+
+.h4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 @media screen and (max-width: 767px) {
   .decoa {
     margin: 0;
@@ -216,6 +234,18 @@ div {
     width: 63px;
     height: 63px;
     line-height: 66px;
+  }
+  .form-redes {
+    flex-direction: column; /* cambio aca */
+  }
+  .texx2 {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1050px) {
+  .tam {
+    font-size: 16px;
   }
 }
 
