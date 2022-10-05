@@ -29,6 +29,10 @@ div {
   height: auto;
 }
 
+.texx1 {
+  color: #333;
+}
+
 .texx2 {
   display: flex;
   justify-content: space-evenly;
