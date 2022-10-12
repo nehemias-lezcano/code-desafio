@@ -46,6 +46,7 @@ div {
 .color-cont .otra-class {
   justify-content: flex-end;
   color: #f8f9fa; /* map */
+  font-size: 19px;
 }
 .color-cont .otra-class .col-nav {
   color: #f8f9fa; /* map */
@@ -69,6 +70,23 @@ div {
 }
 .btn-wsp {
   background: #20ba5a;
+}
+
+.wrap {
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Los-hornos-de-lena-para-pizzerias-el-gran-secreto-de-su-exito1-1024x356.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.wrap-texto {
+  color: #fff;
+  text-align: center;
+  width: 50%;
 }
 
 .mid { /* grids */
@@ -246,10 +264,16 @@ div {
     display: flex;
     flex-direction: column;
   }
+  .wrap {
+    height: 20vh; /* aca */
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 1050px) {
   .tam {
     font-size: 16px;
+  }
+  .wrap {
+    height: 40vh; /* aca */
   }
 }
 
