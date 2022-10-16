@@ -199,6 +199,37 @@ div{
     flex-direction: column;
     align-items: center;
 }
+/* formulario y foto index */
+.form1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 10px;
+  }
+  .text-form{
+    font-size: 21px;
+  }
+  .mods{
+    height: 140px;
+  }
+  .cont-boton{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+  }
+  .boton-form{
+    background-color: darkred;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  .int-logo{
+    width: 45%;
+  }
 @media screen and (max-width: 767px){
     .decoa{
         margin: 0;
@@ -228,6 +259,10 @@ div{
 	}
     .form-redes{
         flex-direction: column;  /* cambio aca */
+        margin: 10px;
+    }
+    .int-logo{
+      display: none;
     }
     .texx2{
         display: flex;
@@ -243,5 +278,8 @@ div{
  }
  .wrap{
     height: 40vh; /* aca */
+  }
+  .int-logo{
+    display: none;
   }
 }
