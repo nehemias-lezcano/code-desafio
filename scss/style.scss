@@ -111,7 +111,7 @@ div{
 } 
 .tam{
     margin: 20px;
-    font-size: 20px;
+    font-size: 24px;
 }
     /* grids */
 .footerpages{
@@ -189,6 +189,7 @@ div{
     display: flex;  
     align-items: center;
     flex-direction: column;
+    color: #FFF;
 }
 .form-redes{ /* cambio aca */
     display: flex;
@@ -199,6 +200,12 @@ div{
     flex-direction: column;
     align-items: center;
 }
+.texx1{
+    color: #FFF;
+}
+.wrap-con{
+    height: 55vh;
+}
 /* formulario y foto index */
 .form1{
     display: flex;
@@ -208,6 +215,7 @@ div{
   }
   .text-form{
     font-size: 21px;
+    color: #FFF;
   }
   .mods{
     height: 140px;
@@ -229,6 +237,12 @@ div{
   }
   .int-logo{
     width: 45%;
+  }
+  .sec-con{
+    background: black;
+  }
+  .h-abj{
+    color: #FFF;
   }
   /* galeria */
   .text-gal{
@@ -332,6 +346,7 @@ div{
     text-align: center;
   }
   /* fin galeria */
+
 @media screen and (max-width: 767px){
     .decoa{
         margin: 0;
