@@ -346,7 +346,63 @@ div{
     text-align: center;
   }
   /* fin galeria */
-
+  /* neon  */
+.contt1{
+    display: flex;
+    margin-bottom: 40px;
+  }
+  .container1 {
+    border: 2px solid white;
+    box-shadow: inset 0 0 5px red, 0 0 10px red;
+    border-radius: 60px;
+    max-width: 400px;
+    margin: auto;
+    margin-top: 40px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  .neon {
+  
+    font-family: "Dancing Script", cursive;
+    margin: 0;
+    font-size: 50px;
+    text-shadow: 0 0 5px red, 0 0 15px red, 0 0 30px red, 0 0 50px red;
+  }
+  
+  .neon2 {
+    font-family: monospace;
+    letter-spacing: 8px;
+    margin: 0;
+    font-size: 20px;
+    text-shadow: 0 0 5px yellow, 0 0 15px yellow, 0 0 30px yellow;
+  } 
+  
+  .neon3 {
+    font-family: monospace;
+    margin: 0;
+    font-size: 20px;
+    text-shadow: 0 0 5px white, 0 0 15px white, 0 0 30px white;
+  }
+  
+  .flicker1 {
+    animation: parpadear 2s infinite backwards steps(3);
+  }
+  .flicker2 {
+    animation: parpadear 2.5s infinite backwards steps(4);
+  }
+  .flicker3 {
+    animation: parpadear 1.5s infinite backwards steps(2);
+  }
+  
+  @keyframes parpadear {
+    to {
+      color: gray;
+      text-shadow: none;
+    }
+  }
+  /* neon */
 @media screen and (max-width: 767px){
     .decoa{
         margin: 0;
@@ -388,6 +444,9 @@ div{
     .wrap{
         height: 20vh; /* aca */
       }
+    .contt1{
+        flex-direction: column;
+      }
 }
 @media screen and (min-width: 768px) and (max-width: 1050px){
  .tam{
@@ -398,5 +457,8 @@ div{
   }
   .int-logo{
     display: none;
+  }
+  .contt1{
+    flex-direction: column;
   }
 }
